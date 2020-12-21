@@ -398,14 +398,68 @@
 // End Deel 4, Exercise String properties
 
 // --- Start Deel 4, Exercise Multiples
-console.log(sum(10));
+// console.log(sum(10));
 
-function sum(limit) {
-  let sum = 0;
+// function sum(limit) {
+//   let sum = 0;
 
-  for (let i = 0; i <= limit; i++)
-    if (i % 3 === 0 || i % 5 === 0)
-      sum += i;
+//   for (let i = 0; i <= limit; i++)
+//     if (i % 3 === 0 || i % 5 === 0)
+//       sum += i;
 
-  return sum; 
-}
+//   return sum; 
+// }
+// End Deel 4, Exercise Multiples
+
+// --- Start Deel 4, Exercise Grade
+// const marks = [80, 80, 50]
+
+// console.log(calculateGrade(marks));
+
+// function calculateGrade(marks) { 
+//     const average = calculateAverage(marks);
+
+//     if (average <60) return 'F';
+//     if (average <70) return 'D';
+//     if (average <80) return 'C';
+//     if (average <90) return 'B';
+//     return 'A';
+// }
+
+// function calculateAverage(array) {
+//     let sum = 0;
+//     for (let value of array)
+//         sum += value;
+//     return sum / array.length;
+// }
+// End 4, Exercise Grade
+
+// --- Start Deel 4, Exercise Stars
+// showStars(5);
+
+// function showStars(rows) { 
+//   for (let row = 1; row <= rows; row++) {
+//     let pattern = ''; 
+//     for (let i = 0; i < row; i++)
+//       pattern += '*';
+//     console.log(pattern);
+//   }
+// }
+// End Deel 4, Exercise Stars
+
+// --- Start Deel 4, Prime numbers
+// showPrimes(20);
+
+// function showPrimes(limit) {
+//     for (let number = 2; number <= limit; number ++) 
+//         if (isPrime(number)) console.log(number);
+// }
+  
+// function isPrime(number) {
+//     for (let factor = 2; factor < number; factor++)
+//       if (number % factor === 0)
+//         return false; 
+    
+//     return true; 
+// }
+// End Deel 4, Prime numbers
