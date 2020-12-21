@@ -37,10 +37,10 @@
 //     age: 30
 // };
 
-// // Dot notation
+// Dot notation
 // person.name = 'John';
 
-// // Bracket notation
+// Bracket notation
 // let selection = 'name';
 // person[selection] = 'Mary';
 
@@ -59,12 +59,12 @@
 //     console.log ('Hello ' + name + '' + lastName);
 // }
 
-// // Calculating a value
+// Calculating a value
 // function square(number) {
 //     return number * number;
 // }
 
-// // greet('John', 'Smith');
+// greet('John', 'Smith');
 
 // console.log(square (2));
 // End Deel 2, Functions
@@ -103,7 +103,7 @@
 // console.log (x < 1);
 // console.log (x <= 1);
 
-// // Equality
+// Equality
 // console.log (x === 1);
 // console.log (x !== 1);
 // End Deel 3, Comparison
@@ -139,7 +139,7 @@
 // let eligibleForLoan = highIncome || goodCreditScore;
 // console.log('Eligible', eligibleForLoan);
 
-// //Not (!)
+//Not (!)
 // let applicationRefused = !eligibleForLoan;
 // console.log ('Application Refused', applicationRefused)
 
@@ -182,9 +182,9 @@
 //     console.log('Good afternoon');
 
 
-// // else if (hour >= 18 && hour < 24) {
-// //     console.log('Good evening');
-// // }
+// else if (hour >= 18 && hour < 24) {
+//     console.log('Good evening');
+// }
 
 // else 
 //     console.log('Good evening')
@@ -219,7 +219,7 @@
 // console.log('Hello world');
 
 // for (let i = 5; i >= 1; i--) {
-//     // console.log('Hello world', i);
+//     console.log('Hello world', i);
 //     if (i % 2 !== 0) console.log(i);
 // }
 
@@ -241,7 +241,7 @@
 // let i = 0;
 // while (i <5) {
 //     console.log(i);
-//     // i++;
+// i++;
 // }
 
 // while (true) {
@@ -251,8 +251,161 @@
 // let x = 0;
 
 // do {
-//     // xx++;
+// xx++;
 // } while (x < 5);
 
 // for (let i = 0; i < 10;)
 // End Deel 4, How to crash your pc
+
+// --- Start Deel 4, Loops
+// for in loop
+// const person = {
+//     name: 'Mosh',
+//     age: 30
+// };
+
+// for (let key in person)
+//     console.log(key, person[key]);
+
+// dot notation
+// person.name
+
+// bracket notation
+// person['name']
+// for (let index in colors)
+//     console.log(index, colors[index]);
+
+// for of
+// const colors = ['red', 'green', 'blue'];
+// for (let color of colors)
+//     console.log(color);
+
+// let i = 0;
+// while (i <= 10) {
+// if (i === 5) break;
+//     if (i % 2 === 0) {
+//         i++;
+//         continue; 
+//     }
+
+//     console.log(i);
+//     i++;
+// }
+// End Deel 4, Loops
+
+//-- up, // check
+
+// --- Start Deel 4, Exercise max of 2 numbers
+// let number =max(5,10 );
+// console.log(number);
+// function max(a, b) {
+// if (a > b) return a;
+// return b;
+
+//     return (a > b) ? a : b;
+// }
+// End Deel 4, Exercise max of 2 numbers
+
+// --- Start Deel 4, Exercise landscape
+    // console.log(isLandscape(300, 600));
+
+    // function isLandscape(width, height) {
+    //     // if (width > height) return true;
+    //     // return false;
+
+    //     return (width > height); 
+    // }
+// End Deel 4, Exercise landscape
+
+// --- Start Deel 4, buzz
+// Deze exercise werkt als hem maak in speciaal fizzbuzz js doc.
+// const output = fizzBuzz(false);
+// console.log(output);
+
+// function fizzBuzz(input) {
+//     if (typeof input !== 'number')
+//     return NaN;
+
+//     if ((input % 3 === 0 && (input % 5 === 0))
+//     return 'FizzBuzz';
+
+//     if (input % 3 === 0)
+//     return 'Fizz';
+
+//     if (inout % 5 === 0 )
+//     return 'Buzz';
+
+//     return input;
+// }
+// End Deel 4, Exercise buzz
+
+// --- Start Deel 4, Exercise speed
+// Deze code kan niet gemaakt worden omdat hij niet in de gedownloadde bronnen staat.
+
+// --- Start Deel 4, Exercise numbers
+// showNumbers(10);
+
+// function showNumbers(limit) {
+//   for (let i = 0; i <= limit; i++) {
+//     const message = (i % 2 === 0) ? 'EVEN' : 'ODD';
+//     console.log(i, message);
+//   }
+
+//     for (let i = 0; i <= limit; i ++) {
+//         // if (i % 2 === 0) console.log(i, 'EVEN');
+//         // else console.log()(i, 'ODD');
+
+//         const message = (i % 2 === 0) ? 'EVEN' : 'ODD';
+//         console.log(i, message); 
+//     }
+// }
+// End Deel 4, Exercise numbers
+
+// --- Start Deel 4, Exercise Count truthy
+// const isActive = true;
+// const name = 'Mosh';
+// if (name) console.log('Hello'); //Truthy value (true)
+// const array = [1, 2, 3];
+// const array = [0, null, undefined, '', 2, 3];
+// console.log(countTruthy(array));
+
+// function countTruthy(array) {
+//   let count = 0; 
+//   for (let value of array) 
+//     if (value)
+//       count++;
+//   return count; 
+// }
+// End Deel 4, Exercise Count truthy
+
+// --- Start Deel 4, Exercise String properties
+// const movie = { 
+//     title: 'a',
+//     releaseYear: 2018,
+//     rating: 4.5,
+//     director: 'b'
+//   };
+  
+//   showProperties(movie);
+  
+//   function showProperties(obj) {
+//     for (let key in obj) {
+//     // console.log(key);
+//     if (typeof obj[key] === 'string')
+//     console.log(key, obj[key]);
+//     }
+//   }
+// End Deel 4, Exercise String properties
+
+// --- Start Deel 4, Exercise Multiples
+console.log(sum(10));
+
+function sum(limit) {
+  let sum = 0;
+
+  for (let i = 0; i <= limit; i++)
+    if (i % 3 === 0 || i % 5 === 0)
+      sum += i;
+
+  return sum; 
+}
