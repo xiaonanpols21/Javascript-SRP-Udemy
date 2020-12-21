@@ -1,6 +1,7 @@
-// console.log('Hello world'); Deel 1: Getting started
+// -- Deel 1: Getting started
+// console.log('Hello world'); 
 
-// Start: Deel 2, Variables
+// -- Start: Deel 2, Variables
 // let name = 'Mosh';
 // console.log(name);
 
@@ -13,13 +14,13 @@
 // Camel notation
 // End: Deel 2, Variables
 
-// Start Deel 2, Consistend
+// --- Start Deel 2, Consistend
 // const interestRate = 0.3;
 // interestRate = 1;
 // console.log(interestRate);
 // End Deel 2, Consistend
 
-// Start Deel 2, primitive types
+// --- Start Deel 2, primitive types
 // let name = 'Mosh'; // String literal
 // let age = 30; // Number literal
 // let isApproved = true; // Boolean literal
@@ -27,7 +28,7 @@
 // let selectedColor = null;
 // End Deel 2, primitive types
 
-// Start Deel 2, Objects
+// --- Start Deel 2, Objects
 // let name = 'Mosh';
 // let age = '30';
 
@@ -46,13 +47,13 @@
 // console.log(person.name);
 // End Deel 2, Objects
 
-// Start Deel 2, Arrays
+// --- Start Deel 2, Arrays
 // let selectedColors = ['red', 'blue'];
 // selectedColors[2] = 1;
 // console.log (selectedColors.length);
 // End Deel 2, Arrays
 
-// Start Deel 2, Functions
+// --- Start Deel 2, Functions
 // Performing a task
 // function greet (name, lastName) {
 //     console.log ('Hello ' + name + '' + lastName);
@@ -68,7 +69,7 @@
 // console.log(square (2));
 // End Deel 2, Functions
 
-// Start Deel 3, Asignment
+// --- Start Deel 3, Asignment
 // let x = 10;
 // let y = 3;
 
@@ -87,7 +88,7 @@
 // console.log (--x);
 // End Deel 3, Asignment
 
-// Start Deel 3, Comparison
+// --- Start Deel 3, Comparison
 // let x = 10;
 
 // x = x + 5;
@@ -107,7 +108,7 @@
 // console.log (x !== 1);
 // End Deel 3, Comparison
 
-// Start Deel 3, Equality
+// --- Start Deel 3, Equality
 // Strict equality (Type + value)
 // console.log(1 === 1);
 // console.log('1' === 1);
@@ -118,14 +119,14 @@
 // console.log(true == 1);
 // End Deel 3, Equality
 
-// Start Deel 3, Ternary
+// --- Start Deel 3, Ternary
 // let points = 110;
 // let type = points > 100 ? 'gold' : 'silder';
 
 // console.log(type);
 // End Deel 3, Ternary
 
-// Start Deel 3, Logical
+// --- Start Deel 3, Logical
 // Logical and (&&)
 // Returns true if both perands are true
 
@@ -152,13 +153,13 @@
 // console.log(currentColor);
 // Start Deel 3, Logical
 
-// Start Deel 3, Precedence
+// --- Start Deel 3, Precedence
 // let x = (2 + 3) * 4;
 
 // console.log(x)
 // End Deel 3, Precedence
 
-// Start Deel 3, Swap
+// --- Start Deel 3, Swap
 // let a = 'red';
 // let b = 'blue';
 
@@ -168,4 +169,90 @@
 
 // console.log(a);
 // console.log(b);
-// Start Deel 3, Swap 
+// End Deel 3, Swap
+
+// --- Start Deel 4, If else
+// Hour
+// 6am - 12pm = condition. Good morning = statement
+// let hour = 13;
+// if (hour >= 6 && hour < 12) 
+//     console.log('Good morning');
+
+// else if (hour >= 12 && hour < 18) 
+//     console.log('Good afternoon');
+
+
+// // else if (hour >= 18 && hour < 24) {
+// //     console.log('Good evening');
+// // }
+
+// else 
+//     console.log('Good evening')
+// End Deel 4, If else
+
+// --- Start Deel 4, Switch
+// let role = 'guest';
+
+// switch (role ) {
+//     case 'guest':
+//         console.log('Guest user');
+//         break;
+    
+//     case 'moderator':
+//         console.log('Moderator user');
+//         break;
+    
+//     default: 
+//         console.log('Unknown user');
+// }
+
+// if (role === 'guest') console.log('Guest ');
+// else if (role === 'moderator') console.log('Moderator');
+// else console.log('Unknown User');
+// End Deel 4, Switch
+
+// --- Start Deel 4, Loops
+// console.log('Hello world');
+// console.log('Hello world');
+// console.log('Hello world');
+// console.log('Hello world');
+// console.log('Hello world');
+
+// for (let i = 5; i >= 1; i--) {
+//     // console.log('Hello world', i);
+//     if (i % 2 !== 0) console.log(i);
+// }
+
+// let i = 0;
+// while (i <== 5) {
+//     if (i % 2 !== 0) console.log(i);
+//     i++;
+// }
+
+// do while
+//  let i = 9;
+//  do {
+//     if (i % 2 !== 0) console.log(i);
+//     i++;
+//  } while (i <= 5);
+// End Deel 4, Looops
+
+// --- Start Deel 4, How to crash your pc
+// let i = 0;
+// while (i <5) {
+//     console.log(i);
+//     // i++;
+// }
+
+// while (true) {
+
+// }
+
+// let x = 0;
+
+// do {
+//     // xx++;
+// } while (x < 5);
+
+// for (let i = 0; i < 10;)
+// End Deel 4, How to crash your pc
