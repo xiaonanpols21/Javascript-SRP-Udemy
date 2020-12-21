@@ -67,3 +67,105 @@
 
 // console.log(square (2));
 // End Deel 2, Functions
+
+// Start Deel 3, Asignment
+// let x = 10;
+// let y = 3;
+
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
+// console.log(x ** y);
+
+// Increment (++)
+// console.log(x++);
+// console.log(x);
+
+// Decrement (--)
+// console.log (--x);
+// End Deel 3, Asignment
+
+// Start Deel 3, Comparison
+// let x = 10;
+
+// x = x + 5;
+// x += 5;
+// x = x * 3;
+// x *= 3;
+
+// Relational
+// let x = 1;
+// console.log (x > 0);
+// console.log (x >= 1);
+// console.log (x < 1);
+// console.log (x <= 1);
+
+// // Equality
+// console.log (x === 1);
+// console.log (x !== 1);
+// End Deel 3, Comparison
+
+// Start Deel 3, Equality
+// Strict equality (Type + value)
+// console.log(1 === 1);
+// console.log('1' === 1);
+
+// Lose equality (Value)
+// console.log(1 == 1);
+// console.log('1' == 1);
+// console.log(true == 1);
+// End Deel 3, Equality
+
+// Start Deel 3, Ternary
+// let points = 110;
+// let type = points > 100 ? 'gold' : 'silder';
+
+// console.log(type);
+// End Deel 3, Ternary
+
+// Start Deel 3, Logical
+// Logical and (&&)
+// Returns true if both perands are true
+
+// console.log(false && true);
+
+// Logical or (||)
+// Returns true if one of the perands is true
+// let highIncome = false;
+// let goodCreditScore = false;
+// let eligibleForLoan = highIncome || goodCreditScore;
+// console.log('Eligible', eligibleForLoan);
+
+// //Not (!)
+// let applicationRefused = !eligibleForLoan;
+// console.log ('Application Refused', applicationRefused)
+
+// Falsy (false)
+// Anything that isn't falsy, is truthy
+
+// let userColor = undefined;
+// let defautlColor = 'blue';
+// let currentColor = userColor || defautlColor;
+
+// console.log(currentColor);
+// Start Deel 3, Logical
+
+// Start Deel 3, Precedence
+// let x = (2 + 3) * 4;
+
+// console.log(x)
+// End Deel 3, Precedence
+
+// Start Deel 3, Swap
+// let a = 'red';
+// let b = 'blue';
+
+// let c = a;
+// a = b;
+// b = c;
+
+// console.log(a);
+// console.log(b);
+// Start Deel 3, Swap
