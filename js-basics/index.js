@@ -608,15 +608,62 @@
 // now.setFullYear(2017);
 // End Deel 5, Date
 
-let address = {
-    street: 'a', 
-    city: 'b',
-    zipCode: 'c' 
-}; 
+// --- Start Deel 5, Exercise address
+// let address1 = new Address ('a', 'b', 'c');
+// let address2 = new Address ('a', 'b', 'c');
+// let address3 = address1;
 
-function showAddress(address) {
-    for (let key in address )
-        console.log(key, address[key]);
+// console.log( areEqual(address1, address2));
+// console.log( areSame(address1, address2));
+// console.log( areSame(address1, address3));
+
+// console.log(address);
+
+// function createAddress(street, city, zipCode) {
+//     return {
+//         street, 
+//         city,
+//         zipCode
+//     };
+// }
+
+// function showAddress(address) {
+//     for (let key in address )
+//         console.log(key, address[key]);
+// }
+
+// showAddress(address);
+
+// function Address(street, city, zipCode) {
+//     this.street = street;
+//     this.city = city;
+//     this.zipCode = zipCode;
+// }
+
+// Ik heb hier een fout gemaakt, maar ik kan niet zien wat er fout is
+// funtion areEqual(address1, addres2) {
+//     return address1.street === address2.street &&
+//     address1.city === address2.city &&
+//     address1.zipCode === address2.zipCode;
+// }
+
+// funtion areSame(address1, address2) {
+//     terugn address1 === address2;
+// }
+// End Deel 5, Exercise address
+
+let post = new Post('a', 'b', 'c');
+
+console.log(post);
+
+// console.log(post);
+
+function Post (title, body, author) {
+    this.title = title;
+    this.body = body;
+    this.author = author;
+    this.views = 0;
+    this.comments = [];
+    this.isLive = false;
+
 }
-
-showAddress(address);
