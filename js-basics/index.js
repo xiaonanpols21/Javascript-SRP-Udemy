@@ -533,4 +533,90 @@
 // console.log(circle);
 
 // let x = {};
+
+// let x = { value: 10};
+// let y = x;
+
+// x.value = 20;
+
+// let obj = { value:10};
+// function increase(obj) {
+//      obj.value++;
+// }
+
+// increase(obj);
+// console.log(obj);
+
+// const circle = {
+//     radius: 1,
+//     draw() {
+//         console.log('draw');
+//     }
+// };
+
+// const another = {};
+
+// for (let key in circle)
+//     another [key] = circle[key];
+
+// another['radius'] = circle['radius'];
+
+// const another = Object.assign({}, circle);
+// const another = { ...circle};
+
+// console.log(another);
+
+// for (let key in circle)
+//     console.log(key, circle[key]);
+
+// for (let key of Object.keys(circle))
+//     console.log(key);
+
+//  for (let entry of Object.entries(circle))
+//     console.log(entry);
+
+// function Object() {}
+// const x = {value: 1}; 
+// const x new Object (); 
+
+// if ('color' in circle) console.log('yes');
+
+// let circle = {};
+// console.log(circle);
 // End Deel 5, Circles
+
+// --- Start Deel 5, Messages
+// const message = 
+// 'This is my\n' +  
+// '\' first\' message';
+
+// const another = new String('hi');
+
+// const name = 'John';
+// const message = 'hi' + name + ',\n';
+
+// const another = 
+// `Hi ${name},
+// 'first' message`; 
+// End Deel 5, Messages
+
+// --- Start Deel 5, Date
+// const now = new Date();
+// const date1 = new Date('May 11 2018 09:00');
+// const datr2 = new Date (2018, 4, 11, 9);
+
+// now.setFullYear(2017);
+// End Deel 5, Date
+
+let address = {
+    street: 'a', 
+    city: 'b',
+    zipCode: 'c' 
+}; 
+
+function showAddress(address) {
+    for (let key in address )
+        console.log(key, address[key]);
+}
+
+showAddress(address);
