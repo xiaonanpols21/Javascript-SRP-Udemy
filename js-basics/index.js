@@ -807,3 +807,129 @@
 
 // console.log(sum);
 // End Deel 6, array
+
+// --- Start Deel 6, Exercise Range
+// const numbers = arrayFromRange(-10, -4);
+
+// console.log(numbers);
+
+// function arrayFromRange(min, max) {
+//   const output = [];
+//   for (let i = min; i <= max; i++)
+//     output.push(i);
+//   return output;
+// }
+// End Deel 6, Exercise Range
+
+// --- Start Deel 6, Exercise Includes
+// const numbers = [1, 2, 3, 4]; 
+
+// console.log(includes(numbers, -1));
+
+// function includes(array, searchElement) {
+//   for (let element of array)
+//     if (element === searchElement)
+//       return true;
+//   return false;
+// }
+// End Deel 6, Exercise Includes
+
+// --- Start Deel 6, Exercise except
+// const numbers = [1, 2, 3, 4]; 
+
+// const output = except(numbers, [1, 2]);
+
+// console.log(output); 
+
+// function except(array, excluded) {
+//   const output = []; 
+//   for (let element of array)
+//     if (!excluded.includes(element))
+//       output.push(element); 
+//   return output; 
+// }
+// End Deel 6, Exercise except
+
+// --- Start Deel 6, Exercise move
+// const numbers = [1, 2, 3, 4]; 
+
+// const output = move(numbers, 1, 1);
+
+// console.log(output); 
+
+// function move(array, index, offset) { 
+//   const position = index + offset;  
+//   if (position >= array.length || position < 0) {
+//     console.error('Invalid offset.');
+//     return; 
+//   }
+  
+//   const output = [...array];
+//   const element = output.splice(index, 1)[0];
+//   output.splice(position, 0, element);
+//   return output;
+// }
+// End Deel 6, Exercise move
+
+// --- Start Deel 6, Exercise occurences
+// const numbers = [1, 2, 3, 4]; 
+
+// const count = countOccurrences(numbers, 1); 
+
+// console.log(count); 
+
+// function countOccurrences(array, searchElement) {
+//   // let count = 0; 
+//   // for (let element of array)
+//   //   if (element === searchElement)
+//   //     count++;
+//   // return count;
+
+//   return array.reduce((accumulator, current) => {
+//     const occurrence = (current === searchElement) ? 1 : 0;
+//     console.log(accumulator, current, searchElement);
+//     return accumulator + occurrence;
+//   }, 0);
+// }
+// End Deel 6, Exercise occurences
+
+// --- Start Deel 6, Exercise max
+// const numbers = [1, 2, 3, 4]; 
+
+// const max = getMax([]);
+
+// console.log(max); 
+
+// function getMax(array) { 
+//   if (array.length === 0) return undefined; 
+
+  // let max = array[0];
+
+  // for (let i = 1; i < array.length; i++)
+  //   if (array[i] > max)
+  //     max = array[i];
+
+  // return max; 
+
+//   return array.reduce((a, b) => (a > b) ? a : b);
+// }
+// End Deel 6, Exercise max
+
+// --- Start Deel 6, Exercise movie
+// Ik kreeg deze niet voor elkaar. er staat error bij regel 929, maar ik zie de fout niet.
+// const movies = [
+//     {title: 'a', year: 2018, rating: 4.5 },
+//     {title: 'b', year: 2018, rating: 4.7 },
+//     {title: 'c', year: 2018, rating: 3 },
+//     {title: 'd', year: 2017, rating: 4.5 },
+// ];
+
+// const titles = movies 
+//     .filter(m => m.year === 2018 && m.rating >= 4)
+//     .short ((a, b) => a.rating - b.rating)
+//     .reverse()
+//     .map(m => m.title)
+
+// 0.5 => a > b
+
+// console.log(titles);
