@@ -463,3 +463,74 @@
 //     return true; 
 // }
 // End Deel 4, Prime numbers
+
+// --- Start Deel 5, Circles
+// let radius = 1;
+// let x = 1;
+// let y = 1;
+
+// const circle2 = {
+//     radius: 1,
+//     location: {
+//         x: 1,
+//         y: 1
+//     },
+//     isVisible: true,
+//     draw: function() { 
+//         console.log('draw');
+//     }
+// }; 
+
+// function: draw() {}
+// function: move () {}
+
+// circle.draw();
+
+// function createCircle(radius) {
+//     return  {
+//         radius,
+//          draw: function (){
+//             console.log('draw');
+//          }
+//     }; 
+// }
+
+// const circle1 = createCircle (1);
+
+// function Circle(radius) {
+//     this.radius = radius;
+//     this.draw = function(){
+//         console.log('draw');
+//     }
+// }
+
+// Circle.call({}, 1);
+// Circle.apply({}, [1, 2, 3]);
+
+// const Circle1 = new Function ('radius', `
+//     this.radius = radius;
+//     this.draw = function(){
+//         console.log('draw');
+//     }
+// `);
+
+// const circle = new Circle1(1);
+
+// const another = new Circle(1);
+
+// contst myCircle = createCircle(1);
+
+// const circle = {
+//     radius: 1
+// };
+
+// circle.color = 'yellow';
+// circle.draw = function () {}
+
+// delete circle.color;
+// delete circle.draw;
+  
+// console.log(circle);
+
+// let x = {};
+// End Deel 5, Circles
