@@ -652,18 +652,158 @@
 // }
 // End Deel 5, Exercise address
 
-let post = new Post('a', 'b', 'c');
-
-console.log(post);
+// --- Start Deel 5, Exercise views
+// let post = new Post('a', 'b', 'c');
 
 // console.log(post);
 
-function Post (title, body, author) {
-    this.title = title;
-    this.body = body;
-    this.author = author;
-    this.views = 0;
-    this.comments = [];
-    this.isLive = false;
+// console.log(post);
 
-}
+// function Post (title, body, author) {
+//     this.title = title;
+//     this.body = body;
+//     this.author = author;
+//     this.views = 0;
+//     this.comments = [];
+//     this.isLive = false;
+// }
+
+// End Deel 5, Exercise views
+
+// --- Start Deel 5, Exercise price
+// let priceRanges = [
+//     {label: '$', tooltip: 'Inexpensive', minPerPerson: 0, maxPerPerson: 10}
+//     {label: '$$', tooltip: 'Moderate', minPerPerson: 11, maxPerPerson: 20}
+//     {label: '$$$', tooltip: 'Expensive', minPerPerson: 21, maxPerPerson: 50}
+// ];
+
+// let restaurants = [
+//     {averagePerPerson: 5 }
+// ] 
+// End Deel 5, Exercise price
+
+// --- Start Deel 6, Adding elements
+// Hier kreeg ik niet dezelfde resultaten als Mosh. Ook al kreeg ik geen error.
+// const numbers = [3, 4];
+// numbers.push(5, 6);
+
+// numbers.unshift(1, 2);
+// numbers.slice(2, 0, 'a', 'b');
+// console.log(numbers);
+// End Deel 6, Adding elements
+
+// --- Start Deel 6, Finding elements
+// const numbers = [1, 2, 3, 1, 4];
+
+// console.log(numbers.indexOf(1, 2)); 
+// console.log(numbers.lastIndexOf(1));
+// console.log(numbers.indexOf(1)!== -1)
+// console.log(numbers.includes(1));
+// End Deel 6, Finding elements
+
+// --- Start Deel 6, Arrow function
+// const courses = [
+//     { id: 1, name: 'a'},
+//     { id: 2, name: 'b'},
+// ];
+
+// console.log( courses.includes({ id: 1, name: 'a'}));
+
+// const course = courses.findIndex(course => course.name === 'a';);
+
+// console.log(course);
+// End Deel 6, Arrow function
+
+// --- Start Deel 6, removing, empthy
+// const last = numbers.pop();
+// console.log(numbers);
+// console.log(last);
+// const first = numbers.shift();
+// console.log(first);
+// numbers.splice(2, 2);
+// console.log(numbers);
+
+// let numbers = [1, 2, 3, 4]; 
+// let another = numbers;
+// numbers = [];
+// numbers.length = 0;
+// numbers.splice(0, numbers.length);
+// while (numbers.length > 0)
+//     numbers.pop();
+// console.log(numbers);
+// console.log(another);
+// End Deel 6, removing, empthy
+
+// --- Start Deel 6, array
+// const first = [1, 2, 3];
+// const second = [4, 5, 6 ];
+
+// const combined = first.concat (second);
+// const combined = [...first, 'a', ...second, 'b'];
+// const copy = combined.slice(2 );
+
+// cosnt copy = [...combined];
+
+// for (let number of numbers)
+//     console.log(number);
+
+// numbers.forEach((number, index) => console.log(index, number));
+
+// const joined = numbers.join(',');
+// console.log(joined);
+
+// const message = 'This is my first message';
+// const parts = message.split('');
+// console.log(parts);
+
+// const combined = parts.join('-');
+// console.log(combined);
+
+// numbers.sort();
+// console.log(numbers);
+// numbers.reverse ();
+// console.log(numbers); 
+
+// const courses = [
+//      {id: 1, name: 'Node.js'}, 
+//      {id: 2, name: 'JavaScript'},
+// ];
+
+// courses.sort (function (a, b) {
+//     const nameA = a.name.toLowerCase  ();
+//     const nameB = b.name.toLowerCase ();
+//     if (nameA < nameB) return -1;
+//     if (nameA > nameB) return 1;
+//     return 0; 
+// }); 
+// console.log (courses);
+
+// const atLeasteOnePosotive = numbers.some(function (value) {
+//     return value >= 0;
+// });
+
+// console.log(atLeasteOnePosotive);
+// const numbers = [1, -1,  2, 3];
+
+// const items  = numbers
+// .filter (n => n >= 0)
+// .map(n => ({ value: n}))
+// .filter(obj => obj.value > 1)
+// .map(obj => obj.value); 
+
+// const items = filtered.map(n => ({ value: n}));
+// const html = '<ul>' + items.join('') + '</ul>';
+
+// console.log(items);
+
+// const numbers = [1, -1,  2, 3];
+// const sum = numbers.reduce (
+//     (accumulator, currentValue) => accumulator + currentValue
+// );
+
+// let sum = 0;
+// for (let n of numbers)
+//     sum += n;
+
+// console.log(sum);
+// End Deel 6, array
