@@ -933,3 +933,151 @@
 // 0.5 => a > b
 
 // console.log(titles);
+// End Deel 6, Exercise movie
+
+// --- Start Deel 7, decloration vs expression
+// walk();
+// function walk() {
+//     console.log('walk'); 
+// }
+
+
+// run();
+// let run = function () {
+//     console.log('run');
+// }; 
+// End Deel 7, decloration vs expression
+
+// --- Start Deel 7, paramaters
+// let x = 1;  
+// x = 'a';
+// function sum(discount, ... prices) {
+    // let total = 0;
+    // for (let value of arguments)
+    //     total += value;
+    // return total;
+    // console.log(arguments);
+    // return a + b;
+    // console.log(args);
+//     const total = prices.reduce((a, b)=> a + b);
+//     return total * (1 - dis count);
+// } 
+
+// console.log(sum(0.1, 20, 30, 1));
+// End Deel 7, paramaters
+
+// --- Start Deel 7, default
+// function interest(principal, rate = 3.5, years = 5) {
+//     // rate = rate || 3.5;
+//     // years = years || 5; 
+//     return principal * rate  / 100 * years;
+// }
+
+// console.log(interest(10000 )); 
+// End Deel 7, default
+
+// --- Start Deel 7, error
+// const person = {
+//     firstName: 'Mosh',
+//     lastName: 'Modeani',
+//     get fullName(){
+//          return `${person.firstName} ${person.lastName }`
+//     },
+//     set fullName(value) {
+//         // const e = new Error();
+//         // throw e;
+//         if (typeof value !==  'string') 
+//             throw new Error('Value is not a string.'); 
+//         const parts = value.split (' ');
+//         if (parts.length !== 2 )
+//             throw new Error ('Enter a first and last name.');
+//         this.firstName = parts[0];
+//         this.lastName = parts[1];
+//     }
+// };
+
+// try {
+//     person.fullName = ''; 
+// }
+ 
+// catch(e) {
+//     alert(e);
+// }
+
+// console.log(person );
+// End Deel 7, error
+
+
+// --- Start Deel 7, global scope
+// Ik kon dezelfde code niet krijgen als Mosh. Kreeg error bij line 1028, maar zie niet wat er fout is
+// const color = 'red';
+// function start (){
+//     const message = 'hi';
+//     const color = 'blue';
+//     console.log (color);
+
+    // if (true) {
+    //     const another = 'bye';
+    // }
+    // for (let i =  0; i < 5; i++) {
+    //     console.log(i);
+    // }
+    // console.log(i);
+// }
+
+// funtion stop() {
+//     const message = 'bye';
+// }
+// console.log(message);
+// start ();
+// End Deel 7, global scope
+
+// --- Start Deel 7, let vs var
+// function start () {
+//     for (var i = 0; i < 5; i++) {
+//          if (true) {
+//              var color = 'red';
+//          }
+//     }
+//     console.log(color);
+// }
+
+// start ();
+
+// var color = 'red';
+// let age = 30;
+// function sayHi() {
+//     console.log('hi');
+// }
+// End Deel 7, let vs var
+
+// --- Start Deel 7, changing
+// const video = {
+//     title: 'a',
+//     tags: [ 'a', 'b', 'c'],
+//     showTags() {
+//         this.tags.forEach( tag =>{
+//             console.log(self.title, tag);
+//         });
+//     }
+// };  
+// video.showTags(); 
+// video.stop = function (){
+//      console.log(this);
+// };
+// function Video (title){
+//     this.title = title;
+//     console.log(this);
+// }
+// const v = new Video('b');
+
+// function playVideo (a, b) {
+//     console.log(this);
+// }
+
+// playVideo.call({name: 'Mosh'},1, 2);
+// playVideo.apply({name: 'Mosh'}, [1, 2]);
+// playVideo.bind({name: 'Mosh'})();
+
+// playVideo();
+// End Deel 7, changing

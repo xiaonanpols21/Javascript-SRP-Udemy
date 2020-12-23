@@ -10,3 +10,5 @@ Om makkelijker te zien wanneer een deel begint, is er een --- toegevoegd aan beg
 Er kan zo zijn dat er dubbel // staat in 1 zin. Dit komt doordat Mosh (maker van de video) iets weghaalde, ik wilde dat eruit commenten. Later commenten ik alles uit van dat ene deel.
 
 Het hoofdstuk arrays vond ik lastig, ik had ook het gevoel dat dit meer iets is voor de back-end wat ik niet zo intressant vind omdat ik graag wil werken aan de front-end maar ik kan begrijpen aan de ene kant als dit ook iets is wat een front-end developer zou moeten weten als wat ik zeg, klopt.
+
+De code die is geschreven is op veel plokken niet goed. Code die Mosh weghaalde, commente ik eruit op dat moment. Maar op het laatst ging ik bijna alle comments eruit halen waardoor de verwijderde code van Moash nu staat op beschikbaar. 
